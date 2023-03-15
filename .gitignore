@@ -1,0 +1,7 @@
+*.jar
+*~
+\#*
+*.pom
+*.asc
+lib/*
+target/*
