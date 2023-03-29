@@ -125,11 +125,11 @@ You then create a JAR file called `bundle.jar` that contains all 8 files
 
     jar -cvf bundle.jar <list of all files>
 
+The Bash script `./sign-and-bundle.sh` automates these operations.
+
 ### Upload bundle
 
 - Log into [OSSRH](https://s01.oss.sonatype.org/) and select *Staging Upload* in
 the options on the right.
 - Select **Artifact Bundle** from the *Upload Mode* dropdown.
 - Select the `bundle.jar` file and click on **Upload Bundle**.
-
-The 
