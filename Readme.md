@@ -133,3 +133,9 @@ The Bash script `./sign-and-bundle.sh` automates these operations.
 the options on the right.
 - Select **Artifact Bundle** from the *Upload Mode* dropdown.
 - Select the `bundle.jar` file and click on **Upload Bundle**.
+
+### Release bundle
+
+Once the repository is processed, the last step is to
+[release](https://central.sonatype.org/publish/release) it, by first clicking
+on the repository, then the *Close* button, and finally the *Release* button.
